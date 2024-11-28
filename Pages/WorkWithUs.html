@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	
+		<title>ZOO</title>
+	
+		<link rel="stylesheet" href="../css/Style.css">
+	
+		<!--GOOGLE FONTS-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Philosopher:wght@700&display=swap" rel="stylesheet">
+ 
+	</head>
+	
+	<body>
+		<!--HEADER-->
+		<header> 
+			<div class = "row">
+				<div class = "logo">
+					<a href = "../index.html">
+						<img src = "../Images/logo.png" alt = "logo1">
+					</a>
+					
+					<hr>
+				
+					<nav>				
+						<ul class = "nav">
+							<li><a class="btn btn-outline-dark" href="./index.html"> HOME </a> </li>
+							<li><a class="btn btn-outline-dark" href="Gallery.html"> GALLERY  </a> </li>
+							<li><a class="btn btn-outline-dark" href="OurTeam.html"> OUR TEAM </a> </li>
+							<li><a class="btn btn-outline-dark" href="WorkWithUS.html"> WORK WITH US </a> </li>
+							<li><a class="btn btn-outline-dark" href="ContactUs.html"> CONTACT US  </a> </li>
+						</ul>
+					</nav>	<!--END MENU-->
+					
+				</div> <!--LOGO CLASS-->
+			</div>
+		
+		</header> <!--END HEADER-->
+		
+		<div>
+			<div class ="titleform">
+				<h3>Work with us!</h3> <br>
+			</div>
+			
+			<div class="formcenter">
+				
+					<form>
+						Your name: * <br>
+							<input type="text" name="fname" size="30" maxlength="20" minlength="3" required> <br> <br>
+							
+						Phone number: * <br>
+							<input type="tel" name="pnumber" size="30" minlength="10" maxlength="10" pattern=[0-9]{10} title="Please enter an exactly 10-digit phone number"  placeholder="012 345 6789" required> <br><br>
+							
+						E-mail: * <br>
+							<input type="email" name="email" size="30" placeholder="ilovethezoo@verymuch.com" required> <br> <br>
+							
+						How would you like to be contacted? <br>
+							<input type="radio" name="contact" value="E-mail">E-mail    
+							<input type="radio" name="contact" value="Phone">Phone <br><br>
+							
+						What type of job are you looking for? <br>
+						<select name = "pet">
+							<option value="vet">Vet</option>
+							<option value="childcare">Childcare</option>
+							<option value="biologist">Biologist</option>
+							<option value="other">Other</option>					
+						</select> <br><br>
+						
+						Write a little bit about yourself and why you would be a great employee at our zoo! <br>
+							<textarea name="comments" rows="5" cols="50"></textarea> <br><br>
+							
+							<input type="checkbox" name="tc" value="agree">I agree to the Terms &amp; Conditions <br>
+							<input type="checkbox" name="offer" value="accept offer"> I want to receive e-mails and updates from the zoo <br><br>
+							
+							<input type="image" src="../Images/WorkWithUs/submit.png" alt="Submit" width="20%">
+						
+						
+					</form>
+				</div>
+			</div>
+<!--FOOTER-->
+		
+		<div class="row">
+			<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+				<div class="col-md-4 d-flex align-items-center">
+					<a href= "index.html" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+						<img class="bi" src = "../Images/logo.png" width="80" alt = "logo">
+					</a>
+					<span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 Zoo, Inc</span>
+				</div>
+
+				<!--SOCIAL MEDIA-->
+				<ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+					
+<!--FACEBOOK-->		<li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/">
+						<img class="bi" src = "../Images/facebook.png" width="40" alt = "FACEBOOK"> </a> </li>
+					
+<!--INSTAGRAM-->	<li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/">
+						<img class="bi" src = "../Images/instagram.png" width="40" alt = "INSTAGRAM"></a></li>
+					
+<!--SNAPCHAT-->		<li class="ms-3"><a class="text-body-secondary" href= "https://www.snapchat.com/">
+						<img class="bi" src = "../Images/snap.png" width="40" alt = "SNAPCHAT"></a></li>
+						
+<!--YOUTUBE-->		<li class="ms-3"><a class="text-body-secondary" href= "https://www.youtube.com/">
+						<img class="bi" src = "../Images/youtube.png" width="40" alt = "YOUTUBE"></a></li>
+				</ul>
+			</footer>
+		</div>
+	
+	
+	</body>
+</html>
